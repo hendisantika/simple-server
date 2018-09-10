@@ -1,7 +1,7 @@
 # Simple Server
 
 
-After creating the runnable springboot app via „mvn clean package“, I start five instances, running in background on different ports:
+After creating the runnable springboot app via `mvn clean package`, I start five instances, running in background on different ports:
 
 ```
 nohup java -jar simpleserver-0.0.1-SNAPSHOT.jar --server.port=8081 --shell.ssh.port=10081 &
