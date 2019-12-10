@@ -5,6 +5,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.Date;
+
 /**
  * Created by IntelliJ IDEA.
  * User: hendisantika
@@ -21,6 +23,6 @@ public class SimpleController {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Hendi Santika - Simple Server";
+        return "Hendi Santika - Simple Server! " + new Date();
     }
 }
